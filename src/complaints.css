@@ -1,0 +1,15 @@
+.txt{
+    height: 42px;
+    width : 600px;
+}
+.complaints{
+    text-align: center;
+    background-color: white;
+}
+.c1{
+    border:2px solid black;
+    padding-bottom: 22px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: wheat;
+}
