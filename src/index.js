@@ -32,6 +32,7 @@ import MO from "./mo";
 import Getinc from "./getinc";
 import IMP1 from './imp1'
 import Fun from "./fun";
+import Update1 from "./update1";
 const routing = (
     <Router>
         <div>
@@ -62,6 +63,7 @@ const routing = (
                 <Route path="/getinc" component={Getinc} />
                 <Route path="/imp1" component={IMP1} />
                 <Route path="/fun" component={Fun} />
+                <Route path="/update1" component={Update1} />
             </Switch>
 
 
