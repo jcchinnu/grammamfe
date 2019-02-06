@@ -18,7 +18,7 @@ class IMP extends Component{
         )
     }
     onUpdate=(e)=>{
-        let position=e.target.parentNode.getElementsByClassName('Position')[0].innerHTML;
+        let position=e.target.parentNode.parentNode.getElementsByClassName('Position')[0].innerHTML;
         const data=this.state.data.find(value => {
             return position===value.position;
         })
